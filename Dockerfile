@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y wget unzip && \
     rm -rf /var/lib/apt/lists/*
 
-ENV PGWEB_VERSION 0.4.1
+ENV PGWEB_VERSION 0.5.0
 
 RUN \
   cd /tmp && \
