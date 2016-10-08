@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y wget unzip && \
     rm -rf /var/lib/apt/lists/*
 
-ENV PGWEB_VERSION 0.9.2
+ENV PGWEB_VERSION 0.9.5
 
 RUN \
   cd /tmp && \
